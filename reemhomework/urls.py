@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('solve/',include('astar.urls')),
+    #path('admin/', admin.site.urls),
+    path('reem/',include('astar.urls')),
 ]
